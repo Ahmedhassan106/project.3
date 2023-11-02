@@ -316,7 +316,7 @@ html
 .dv7{
     height: 610px;
     width: 100%;
-    background-image: url(../images/nile.jpeg);
+    background-image: url(../images/nile.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -823,11 +823,11 @@ html
         text-align: center;
     }
 }
-@media(max-width : 576px){
+@media(max-width : 550px){
     .is{
         position: fixed;
-        margin-left: 88%;
-        margin-top: -90%;
+        margin-left: 85%;
+        margin-top: -100%;
         z-index: 1;
     }
     .is a{
@@ -864,19 +864,19 @@ html
         -webkit-text-fill-color: transparent;
     }
     .dv6 .card{
-        height: 350px;
-        width:70%;
+        height: 360px;
+        width:80%;
         border-radius: 10px;
         float: left;
-        margin: 30px 15%;
+        margin: 20px 10%;
         box-shadow: 0px 0px 2px 2px gray;
     }
     .dv6 .card2{
-        height: 350px;
-        width: 70%;
+        height: 360px;
+        width: 80%;
         border-radius: 10px;
         float: left;
-        margin: 30px 15%;
+        margin: 20px 10%;
         box-shadow: 0px 0px 2px 2px gray;
     }
     .dv6 .card img{
@@ -894,11 +894,11 @@ html
 
     }
     .dv .d1, .d2, .d3{
-        width: 70%;
-        height: 400px;
+        width: 80%;
+        height: 450px;
         border-radius: 20px;
         float: right;
-        margin-right: 15%;
+        margin-right: 10%;
         margin-bottom: 5%;
         transition: 0.5s;
         box-shadow: 1px 150px 700px rgb(81, 111, 129) inset;
@@ -959,7 +959,7 @@ html
     .dv9{
         position: relative;
         width: 90%;
-        height: 300px;
+        height: 400px;
         margin: auto;
         box-shadow: 1px 1px 20px 10px gray;
         border-radius: 20px;
