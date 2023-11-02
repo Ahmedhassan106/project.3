@@ -109,7 +109,7 @@ body{
 }
 .carousel-inner .container{
     text-align: center;
-    height: 180px;
+    height: 200px;
     width: 70%;
     margin: auto;
     background-color: rgba(0,225,225,0.4);
@@ -572,6 +572,7 @@ html
     height: 350px;
     width: 100%;
     background-color: rgb(0, 210, 210);
+    margin-top: 100px;
 }
 .toptail{
     height: 260px;
@@ -640,7 +641,7 @@ html
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-@media(max-width : 768px){
+@media(max-width : 800px){
     .is{
         position: fixed;
         margin-left: 88%;
@@ -822,7 +823,7 @@ html
         text-align: center;
     }
 }
-@media(max-width : 567px){
+@media(max-width : 576px){
     .is{
         position: fixed;
         margin-left: 88%;
