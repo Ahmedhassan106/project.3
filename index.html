@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <title>proj-3</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/style-p3.css">
+      <link rel="stylesheet" href="./css/all.css">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md bg-light navbar-light" style="position: fixed; z-index: 1; width: 100%; opacity: 0.7; top: 0;">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="images/logo1.jpg" style="height: 60px; width: 60px; border-radius: 50%; margin-left: 20px;"></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link egypt" href="#">EGYPT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link home" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#">Link</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle trips" href="#" id="navbardrop" data-toggle="dropdown">
+                Trips
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" disabled>About</a>
+            </li>
+            <form class="form-inline" action="#" style="margin-left: 380px;">
+              <input class="form-control mr-sm-2 searche" type="text" placeholder="Search">
+              <button class="btn btn-success search" type="submit">Search</button>
+            </form>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary login" data-toggle="modal" data-target="#myModal1">
+              Login
+            </button>
+          </ul>
+        </div>
+      </nav>
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header" style="background-color: rgb(0, 225, 225);">
+              <h4 class="modal-title" style="color: white;">Login</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="#" style="color: rgb(0, 225, 225);">
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>
+                <div class="form-group form-check">
+                  <label class="form-check-label"  style="accent-color: rgb(0,225,225);">
+                    <input class="form-check-input" type="checkbox" checked> Remember me
+                  </label>
+                </div>
+                
+              </form>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary login">Submit</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal" style="background-color: rgb(0, 225, 225); border: solid rgb(0, 225, 225) 2px;">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: 86px;">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item  i1 active">
+            <div class="container">
+              <h1>CAIRO</h1>
+              <p>We had such a great time in Egypt!</p>
+              <button type="button" class="btn btn-info">visit us</button>
+            </div>
+            
+          </div>
+          <div class="carousel-item i2">
+            <div class="container">
+              <h1>ASWAN</h1>
+              <p>Thank you, Aswan!</p>
+              <button type="button" class="btn btn-info">visit us</button>
+            </div>
+            
+          </div>
+          <div class="carousel-item i3">
+            <div class="container">
+              <h1>SHARM EL SHAIKH</h1>
+              <p>We love this city!</p>
+              <button type="button" class="btn btn-info">visit us</button>
+            </div>
+          </div>
+          <div class="carousel-item i4">
+            <div class="container">
+              <h1>EL GLALH</h1>
+              <p>We love this city!</p>
+              <button type="button" class="btn btn-info">visit us</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+      <div class="is">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+      </div>
+      <div class="dv1">
+        <h2>Welcome</h2>
+        <p>Are you planning to visit Egypt? We offer the ultimate tour in Egypt, covering Cairo, alex. From a one day trip to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/7 Customer Service.</p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo" style="background-color: aliceblue; color: rgb(0, 150, 150); border: solid aliceblue 2px; font-weight: 500;">Learn More</button>
+        <div id="demo" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <hr style="background-color: rgb(123, 235, 235);">
+      
+      <div class="dv2">
+        <h1>Popular destinations in Egypt</h1>
+      </div>
+      <div id="accordion" style="margin-top: 20px;">
+
+        <div class="card">
+          
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <div class="card-header">
+              GIZA CITY
+            </div>
+          </a>
+          
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Major tourist destinations include the millennia-old monuments in the Nile Valley. Principal among them are the Pyramids and Great Sphinx at Giza.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            <div class="card-header">
+              LUXOR CITY
+            </div>
+          </a>
+          
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Luxor, about 500 km south of Cairo, is the site of the ancient city of Thebes. It includes the ruins of the temple complexes at Karnak and Luxor, which stand within the modern city. On the opposite side of the Nile River lie the monuments, temples and tombs on the West Bank Necropolis, which include the Valley of the Kings and Valley of the Queens.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <div class="card-header">
+              SINAI PENINSULA &
+            </div>
+          </a>
+          
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Sinai has the beach resorts of Sharm el-Sheikh, Dahab, Nuweiba and Taba as well as locations mentioned in the Bible such as Mount Sinai ("Jabal Musa"). Saint Catherine's Monastery may be the oldest working Christian monastery in the world.
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <hr style="background-color: rgb(123, 235, 235);">
+      <div class="dv3">
+        <h1>Translate From Arabic To English</h1>
+      </div>
+      <div class="dv4">
+        <h2>Write and Translate <a href="https://www.bing.com/search?q=translate+to+english&form=ANNTH1&refig=ca56f697cf7b4b709b1e29dd04d330c6&sp=6&lq=0&qs=AS&pq=translate&sk=OS1EP3AS1&sc=10-9&cvid=ca56f697cf7b4b709b1e29dd04d330c6" target="_blank">Press Here</a></h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" style="background-color: aliceblue; color: rgb(0, 150, 150); border: solid aliceblue 2px; font-weight: 500;">
+          <a href="#" data-toggle="tooltip" data-placement="left" title="Copy to Clipboard" style="text-decoration: none;">Copy</a>
+        </button>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" id="comment" placeholder="translate : "></textarea>
+        </div>
+      </div>
+      
+      <hr style="background-color: rgb(123, 235, 235);">
+      <div class="dv3">
+        <h1>Translate From Arabic To Frensh</h1>
+      </div>
+      <div class="dv4">
+        <h2>Write and Translate <a href="https://www.bing.com/search?q=translate+to+french&qs=SS&pq=translate+to+&sk=HS1SS1AS1&sc=10-13&cvid=5F18849390A9424D8B4509130BEFA176&FORM=QBRE&sp=4&lq=0" target="_blank">Press Here</a></h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" style="background-color: aliceblue; color: rgb(0, 150, 150); border: solid aliceblue 2px; font-weight: 500;">
+          <a href="#" data-toggle="tooltip" data-placement="left" title="Copy to Clipboard" style="text-decoration: none;">Copy</a>
+        </button>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" id="comment" placeholder="translate : "></textarea>
+        </div>
+      </div>
+
+      <hr style="background-color: rgb(123, 235, 235);">
+      <div class="dv3">
+        <h1>Translate From Arabic To German</h1>
+      </div>
+      <div class="dv4">
+        <h2>Write and Translate <a href="https://www.bing.com/search?q=translate+to+german&qs=SS&pq=translate+to+&sk=HS2SS1&sc=10-13&cvid=11A16D2F5DA3427E8DF153D845F1E185&FORM=QBRE&sp=4&lq=0" target="_blank">Press Here</a></h2>
+        
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" style="background-color: aliceblue; color: rgb(0, 150, 150); border: solid aliceblue 2px; font-weight: 500;">
+          <a href="#" data-toggle="tooltip" data-placement="left" title="Copy to Clipboard" style="text-decoration: none;">Copy</a>
+        </button>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" id="comment" placeholder="translate : "></textarea>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="" style="color: rgb(0, 225, 225);">
+                <div class="form-group">
+                  <p>Text Copied!</p>
+                </div>
+              </form>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal" style="background-color: rgb(0, 225, 225); border: solid rgb(0, 225, 225) 2px;">OK</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <hr style="background-color: rgb(123, 235, 235);">
+      <div class="dv5"></div>
+      <div class="dv6">
+        <div class="d6"><h1>POPULAR DESTINATIONS IN EGYPT</h1></div>
+        <div class="card">
+          <img class="card-img-top" src="images/cairo.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">CAIRO</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">Capital of Egypt</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/alex.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">ALEXANDRIA</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">The bride of the Mediterranean</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/luxor.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">LUXOR</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">The Capital of the Ancient Kingdom</p>
+            
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/aswan.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">ASWAN</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">Nubian City in The South of Egypt</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/newcap.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">NEW CAPITAL</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">The New Administrative Capital</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/sharm.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">SHARM ELSHAIKH</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">Beautiful City in Egypt</p>
+            
+          </div>
+        </div>
+
+        <div class="card card2">
+          <img class="card-img-top" src="images/siwa.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">SIWA</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">Sunset Oasis</p>
+            
+          </div>
+        </div>
+        <div class="card card2">
+          <img class="card-img-top" src="images/hurghada.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title" style="display: inline;">HURGHADA</p>
+            <a href="#" class="btn btn-primary" style="display: inline; float: right;">Know More</a>
+            <p class="card-text" style="margin-top: 17px;">City on The Red Sea</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="dv7"></div>
+
+      <div class="dv8">
+        <hr style="background-color: rgb(123, 235, 235);">
+        <div class="d6"><h1>THANK YOU</h1></div>
+        <div class="dv">
+          <div class="d1">
+            <div class="dtop">
+              <p>All thanks and appreciation</p>
+              <i class="far fa-clock" style="font-size: 15px;"></i>
+              <span style="font-size: 15px;">October 15,2020</span>
+            </div>
+            <div class="dbottom">
+              <img src="images/Mohamed1.jpeg" class="rounded-circle" alt="Cinque Terre" width="90" height="120">
+              <p>Eng. Mohammed Ismail</p>
+              <span>Director of UI/UX</span>
+            </div>
+          </div></a>
+          <div class="d2">
+            <div class="dtop">
+              <p>All thanks and appreciation</p>
+              <i class="far fa-clock" style="font-size: 15px;"></i>
+              <span style="font-size: 15px;">October 15,2020</span>
+            </div>
+            <div class="dbottom">
+              <img src="images/islam2.jpg" class="rounded-circle" alt="Cinque Terre" width="70" height="100">
+              <p>Eng. Islam Mohammed</p> 
+              <span>Director of UI/UX</span>
+            </div>
+          </div>
+          <div class="d3">
+            <div class="dtop">
+              <p>All thanks and appreciation</p>
+              <i class="far fa-clock" style="font-size: 15px;"></i>
+              <span style="font-size: 15px;">October 15,2020</span>
+            </div>
+            <div class="dbottom">
+              <img src="images/saly3.jpeg" class="rounded-circle" alt="Cinque Terre" width="70" height="100">
+              <p>Eng. Sally Maraush</p>
+              <span>Director of UI/UX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="background-color: rgb(123, 235, 235);">
+      <div class="d6" style="background-color: rgba(255, 255, 255, 0);"><h1>EGYPT NEWS</h1></div>
+      <div class="dv9 d91">
+        <div class="d9skew"></div>
+        <div class="d9content">
+          <a href=""><h3>Podcast Title</h3></a>
+          <i class="fas fa-calendar-alt"></i>
+          <span>Mon, May 25th 2020</span>
+          <div class="bar" style="background-color: rgb(53, 105, 184);"></div>
+          <p style=" margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. illum quos!</p>
+          <div class="tag"><i class="fas fa-tag"></i><span>Podcast</span></div>
+          <div class="time"><i class="fas fa-clock"></i><span>55mins</span></div>
+          <div class="play"><i class="fas fa-play"></i><p style="display: inline;">Play Episode</p></div>
+        </div>
+      </div>
+      
+      <div class="dv9 d92">
+        <div class="d9skew"></div>
+        <div class="d9content">
+          <a href=""><h3>Podcast Title</h3></a>
+          <i class="fas fa-calendar-alt"></i>
+          <span>Mon, May 25th 2020</span>
+          <div class="bar" style="background-color: rgb(184, 53, 53);"></div>
+          <p style=" margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. illum quos!</p>
+          <div class="tag"><i class="fas fa-tag"></i><span>Podcast</span></div>
+          <div class="time"><i class="fas fa-clock"></i><span>55mins</span></div>
+          <div class="play"><i class="fas fa-play"></i><p style="display: inline;">Play Episode</p></div>
+        </div>
+      </div>
+
+      <div class="dv9 d93">
+        <div class="d9skew"></div>
+        <div class="d9content">
+          <a href=""><h3>Podcast Title</h3></a>
+          <i class="fas fa-calendar-alt"></i>
+          <span>Mon, May 25th 2020</span>
+          <div class="bar" style="background-color: rgb(82, 219, 64);"></div>
+          <p style=" margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. illum quos!</p>
+          <div class="tag"><i class="fas fa-tag"></i><span>Podcast</span></div>
+          <div class="time"><i class="fas fa-clock"></i><span>55mins</span></div>
+          <div class="play"><i class="fas fa-play"></i><p style="display: inline;">Play Episode</p></div>
+        </div>
+      </div>
+
+      <div class="dv9 d94">
+        <div class="d9skew"></div>
+        <div class="d9content">
+          <a href=""><h3>Podcast Title</h3></a>
+          <i class="fas fa-calendar-alt"></i>
+          <span>Mon, May 25th 2020</span>
+          <div class="bar" style="background-color: rgb(173, 208, 47);"></div>
+          <p style=" margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. illum quos!</p>
+          <div class="tag"><i class="fas fa-tag"></i><span>Podcast</span></div>
+          <div class="time"><i class="fas fa-clock"></i><span>55mins</span></div>
+          <div class="play"><i class="fas fa-play"></i><p style="display: inline;">Play Episode</p></div>
+        </div>
+      </div>
+
+      
+
+      <div class="dv10">
+        <div class="d6" style="background-color: rgba(255, 255, 255, 0); margin: 30px;"><h1>JOIN US</h1></div>
+        <div class="socials">
+          <h4>Subscribe</h4>
+          <img src="images/twetter.jpg">
+          <a href="#">Go To Link</a>
+        </div>
+        <div class="socials">
+          <h4>Follow</h4>
+          <img src="images/whats.jpg">
+          <a href="#">Go To Link</a>
+        </div>
+        <div class="socials">
+          <h4>Like the page</h4>
+          <img src="images/in.jpg">
+          <a href="#">Go To Link</a>
+        </div>
+        <div class="socials">
+          <h4>Watch vedios</h4>
+          <img src="images/insta.jpg">
+          <a href="#">Go To Link</a>
+        </div>
+      </div>
+
+      <div class="tail">
+        <div class="toptail">
+          <div class="info">
+            <div class="inforow" style="margin-bottom: 10px;"></div>
+            <img src="images/logo1.jpg">
+            <span>Good Company</span>
+            <div class="inforow" style="margin-top: 10px;"></div>
+            <p>Tel : 000-000-000</p>
+            <p>Address : EGYPT</p>
+            <p>Fax : 000-000-000</p>
+          </div>
+          <div class="info" style="margin-left: 5%;">
+            <div class="inforow" style="margin-bottom: 10px;"></div>
+            <img src="images/logo1.jpg">
+            <span>Important links</span>
+            <div class="inforow" style="margin-top: 10px;"></div>
+            <a href="#">Visit Us</a>
+            <a href="#">Take alook</a>
+            <a href="#">Your health is more important</a>
+          </div>
+          <div class="info" style="margin-left: 5%;">
+            <div class="inforow" style="margin-bottom: 10px;"></div>
+            <img src="images/logo1.jpg">
+            <span>Vision</span>
+            <div class="inforow" style="margin-top: 10px;"></div>
+            <p>Serveices for all</p>
+            <p>Provide best serveices</p>
+            <p>you will be better than before</p>
+          </div>
+        </div>
+          
+        <div class="row"></div>
+        <div class="dvtail">
+          <h4>COPYRIGHT &copy; 2020 SHIMAAHUSSIEN EL SAID, GOOD COMPANY. ALL RIGHTS</h4>
+        </div>
+        <div class="row"></div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <!-- jQuery library -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

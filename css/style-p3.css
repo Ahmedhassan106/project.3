@@ -1,0 +1,1010 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(232, 232, 232) !important;
+}
+.egypt{
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(to bottom, rgba(251, 0, 255,0.7)  0%, rgba(48, 207, 208,0.7) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+.egypt:hover{
+    text-shadow: 1px 1px 25px rgb(0, 191, 255);
+}
+.home{
+    color: rgb(0, 225, 225) !important;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.home:hover{
+    background: linear-gradient(to right, rgba(251, 0, 255,0.7)  0% 32%, rgb(205, 205, 205)  32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+.link{
+    color: rgb(0, 225, 225) !important;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.link:hover{
+    background: linear-gradient(to right, rgba(251, 0, 255,0.7)  0% 32%, rgb(205, 205, 205)  32%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+.trips{
+    color: rgb(0, 225, 225) !important;
+    font-size: 15px;
+    
+    border: solid 3px ;
+    border-radius: 10px;
+    border-top-color: rgb(0, 225, 225);
+    border-left-color: rgb(0, 225, 225);
+    border-bottom-color: rgb(0, 130, 130);
+    border-right-color: rgb(0, 130, 130);
+}
+.trips:hover{
+    background: linear-gradient(to right, rgba(251, 0, 255,0.7)  0% 23%, rgb(0,225,225)  23%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+.disabled{
+    color: rgb(0, 225, 225) !important;
+    font-size: 15px;
+    
+}
+.searche{
+    border: solid rgb(0, 225, 225) 1px !important;
+    
+}
+.search{
+    border: solid rgb(0, 225, 225) 1px !important;
+    background-color: rgb(0, 225, 225) !important;
+    color: aliceblue !important;
+}
+.login{
+    margin-left: 10px;
+    margin-top: 7px;
+    height: 38px;
+    border: solid rgb(0, 225, 225) 1px !important;
+    background-color: rgb(0,225,225) !important;
+    color: aliceblue !important;
+}
+.carousel-item{
+    width: 100%;
+    height: 550px;
+}
+.i1{
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i2{
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i3{
+    background-image: url(../images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i4{
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner .container{
+    text-align: center;
+    height: 180px;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0,225,225,0.4);
+    margin-top: 29%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px rgb(0,225,225);
+}
+.carousel-inner .container h1{
+    padding-top: 20px;
+}
+.is{
+    position: fixed;
+    margin-left: 92%;
+    margin-top: -37%;
+    z-index: 1;
+}
+.is a{
+    text-decoration: none;
+}
+.is i{
+    display: block;
+    font-size: 60px;
+    color: rgb(0, 107, 107);
+    margin-top: 20px;
+    
+}
+.is i:hover{
+    color: rgb(0, 225, 225);
+}
+/* 
+
+
+
+هنجيب الستايلات اللي في ال 
+
+
+html
+
+
+و ننقلها هنا
+
+
+
+
+
+
+
+*/
+.dv1{
+    background-color: rgb(127, 194, 172);
+    color: white;
+    width: 100%;
+    padding:  3%  10% 3% 10%;
+    border-radius: 0px 0px 10px 10px ;
+}
+.dv1 h2{
+    background: linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(81, 171, 241) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.dv2{
+    background-color: rgb(53, 156, 156);
+    color: white;
+    width: 100%;
+    padding:  3%  10% 3% 10%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-link{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(to bottom, rgba(251, 0, 255,0.7)  0%, rgba(48, 207, 208,0.7) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.card-body{
+    color: gray;
+}
+.dv3{
+    background-color: rgb(53, 156, 156);
+    color: white;
+    width: 100%;
+    padding:  1%  10% 1% 10%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dv4{
+    background-color: rgb(127, 194, 172);
+    padding-top: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+.dv4 .form-group{
+    padding: 20px 30px 30px 30px;
+}
+.dv4 h2{
+    margin-left: 30px;
+    color: aliceblue;
+}
+.dv4 h2 a{
+    text-decoration: none;
+    color: rgb(0, 107, 107);
+}
+.dv4 h2 a:hover{
+    color: lightgray;
+}
+.dv4 button{
+    margin-left: 30px;
+    border: solid rgb(228, 228, 228) 2px !important;
+}
+.dv5{
+    height: 610px;
+    width: 100%;
+    background-image: url(../images/pyramids.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dv6{
+    height: 1800px;
+    width: 100%;
+    margin-top: -300px;
+    background-color: rgb(232, 232, 232);
+}
+.d6{
+    background-color: rgb(127, 194, 172);
+    width: 100%;
+    padding:  1%  10% 1% 10%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.d6 h1{
+    background:linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 80%, rgb(48, 207, 208) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dv6 .card{
+    height: 500px;
+    width:30%;
+    border-radius: 10px;
+    float: left;
+    margin: 30px 20px;
+    box-shadow: 0px 0px 2px 2px gray;
+}
+.dv6 .card2{
+    height: 500px;
+    width:30%;
+    border-radius: 10px;
+    float: left;
+    margin: 30px 120px;
+    box-shadow: 0px 0px 2px 2px gray;
+}
+.dv6 .card img{
+    height: 400px;
+    width:90%;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.dv6 .card::after{
+    position: absolute;
+    content: "";
+    
+    height: 0;
+    width: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(0, 130, 130);
+    opacity: 0;
+    transition: 1s;
+}
+.dv6 .card:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.dv6 .card::before{
+    position: absolute;
+    content: "";
+    
+    height: 0;
+    width: 0;
+
+    bottom: 0;
+    right: 0;
+
+    background-color: rgb(0, 130, 130);
+    opacity: 0;
+    transition: 1s;
+}
+.dv6 .card:hover::before{
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.dv7{
+    height: 610px;
+    width: 100%;
+    background-image: url(../images/nile.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.dv8{
+    height: fit-content;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: -300px;
+    background-color: rgb(232, 232, 232);
+}
+.dv{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding-top: 30px;
+}
+.dv .d1, .d2, .d3{
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+    float: left;
+    transition: 0.5s;
+    box-shadow: 1px 150px 700px rgb(81, 111, 129) inset;
+    cursor: pointer;
+}
+
+.dv .dtop{
+    width: 83%;
+    margin: auto;
+    color: white;
+    line-height: 5px;
+    padding-top: 20px;
+    box-shadow: none;
+}
+.dv .dbottom{
+    width: 83%;
+    margin: auto;
+    color: white;
+    line-height: 5px;
+    box-shadow: none;
+    margin-top: 50%;
+}
+.dv .dtop p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.dv .dtop p:hover{
+    color: rgb(80, 145, 145);
+}
+.dv .dbottom p{
+    padding-top: 5px;
+}
+.dv .d1:hover, .d2:hover, .d3:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: 1px 150px 700px rgb(39, 110, 155) inset;
+}
+.dv .d1{
+    background-image: url(../images/Mohamed1.jpeg);
+    background-size: cover;
+}
+.dv .d2{
+    background-image: url(../images/islam2.jpg);
+    background-size: cover;
+    margin-left: 5%;
+}
+.dv .d3{
+    background-image: url(../images/saly3.jpeg);
+    background-size: cover;
+    float: right;
+}
+
+.dv9{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    box-shadow: 1px 1px 20px 10px gray;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+    background-repeat: no-repeat;
+    background-size: 35% 100%;
+    transition: 0.5s;
+}
+.dv9:hover{
+    background-size: 40% 105%;
+}
+.d91{
+    background-image: url(../images/egypt1.jpeg);
+    background-position: right;
+}
+.d92{
+    background-image: url(../images/egypt2.jpeg);
+    background-position: left;
+}
+.d93{
+    background-image: url(../images/egypt3.jpeg);
+    background-position: right;
+}
+.d94{
+    background-image: url(../images/egypt4.jpeg);
+    background-position: left;
+}
+.d91 .d9skew, .d93 .d9skew{
+    position: absolute;
+    background-color: rgb(232, 232, 232);
+    height: 100%;
+    width: 60%;
+    transform: skew(5deg,0deg);
+    margin-left: 15%;
+}
+.d92 .d9skew, .d94 .d9skew{
+    position: absolute;
+    background-color: rgb(232, 232, 232);
+    height: 100%;
+    width: 60%;
+    transform: skew(-5deg,0deg);
+    margin-left: 25%;
+}
+.d91 .d9content,.d93 .d9content{
+    position: absolute;
+    background-color: rgb(232, 232, 232);/*غير اللون*/
+    height: 80%;
+    width: 68%;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.d92 .d9content,.d94 .d9content{
+    position: absolute;
+    background-color: rgb(232, 232, 232);/*غير اللون*/
+    height: 80%;
+    width: 69%;
+    border-radius: 20px;
+    margin-left: 31%;
+    margin-top: 3%;
+}
+
+.d9content a{
+    text-decoration: none !important;
+    display: block;
+    color: rgb(3, 98, 98);
+    height: fit-content;
+    width: fit-content;
+}
+.d9content a:hover{
+    color: rgb(53, 156, 156);
+}
+.d9content i, .d9content span{
+    font-size: 10px;
+}
+.bar{
+    height: 6px;
+    width: 50px;
+    transition: 1s;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.dv9:hover .bar{
+    width: 100px;
+}
+.dv9 p{
+    font-size: 15px;
+}
+.tag, .time, .play{
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    transition: 0.5s;
+    cursor: default;
+}
+.play{
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(31, 130, 130);
+    background-color: rgb(180, 180, 180);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.tag:hover , .time:hover{
+    background-color: gray;
+}
+.play:hover{
+    color: aliceblue;
+    background-color: rgb(1, 171, 171);
+
+}
+.time, .play{
+    margin-left: 10px;
+}
+.tag i, .tag span, .time i, .time span, .play i, .play p{
+    font-size: 12px;
+}
+.tag, .time{
+    width: 70px;
+}
+.play{
+    width: 100px;
+}
+
+.dv10{
+    height: 220px;
+    width: 80%;
+    margin: auto;
+}
+.dv10 .socials{
+    width: 22%;
+    height: 200px;
+    float: left;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+}
+.dv10 .socials h4{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    color: rgb(0, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.socials img{
+    transform: scale(0.8,0.8);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px rgb(173, 173, 173);
+    margin-left: 27%;
+    cursor: pointer;
+    transition: 1s;
+}
+.socials img:hover{
+    opacity: 0.7;
+}
+.socials a{
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: 30%;
+    font-size: 20px;
+    color: rgb(0, 207, 207);
+}
+.socials a:hover{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+
+.tail{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(0, 210, 210);
+}
+.toptail{
+    height: 260px;
+    width: 90%;
+    margin: auto;
+}
+.info{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.inforow{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 224, 224);
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.info img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20%;
+    display: inline;
+    box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+    transition: 1s;
+}
+.info img:hover{
+    opacity: 0.7;
+}
+.info span{
+    color: aliceblue;
+    margin-left: 10px;
+    font-weight: 450;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info p{
+    text-align: center;
+    color: aliceblue;
+}
+.info a{
+    text-align: center;
+    display: block;
+    color: rgb(0, 107, 107);
+    margin-bottom: 5%;
+}
+.info a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.row{
+    height: 3px;
+    width: 101%;
+    background-color: rgb(0, 224, 224);
+    
+}
+.dvtail{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dvtail h4{
+    background: linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media(max-width : 768px){
+    .is{
+        position: fixed;
+        margin-left: 88%;
+        margin-top: -60%;
+        z-index: 1;
+    }
+    .is a{
+        text-decoration: none;
+    }
+    .is i{
+        display: block;
+        font-size: 60px;
+        color: rgb(0, 107, 107);
+        margin-top: 20px;
+    }
+    .is i:hover{
+        color: rgb(0, 225, 225);
+    }
+    .dv6{
+        height: 1800px;
+        width: 100%;
+        margin-top: -300px;
+        background-color: rgb(232, 232, 232);
+    }
+    .d6{
+        background-color: rgb(127, 194, 172);
+        width: 100%;
+        padding:  1%  10% 1% 10%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+    }
+    .d6 h1{
+        background:linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 80%, rgb(48, 207, 208) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .dv6 .card{
+        height: 350px;
+        width:40%;
+        border-radius: 10px;
+        float: left;
+        margin: 30px 5%;
+        box-shadow: 0px 0px 2px 2px gray;
+    }
+    .dv6 .card2{
+        height: 350px;
+        width: 40%;
+        border-radius: 10px;
+        float: left;
+        margin: 30px 5%;
+        box-shadow: 0px 0px 2px 2px gray;
+    }
+    .dv6 .card img{
+        height: 250px;
+        width:90%;
+        margin: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .dv{
+        width: 100%;
+        height: 1650px;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .dv .d1, .d2, .d3{
+        width: 60%;
+        height: 500px;
+        border-radius: 20px;
+        float: right;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        transition: 0.5s;
+        box-shadow: 1px 150px 700px rgb(81, 111, 129) inset;
+        cursor: pointer;
+    }
+    .dv .dtop{
+        width: 83%;
+        margin: auto;
+        color: white;
+        line-height: 5px;
+        padding-top: 20px;
+        box-shadow: none;
+    }
+    .dv10{
+        height: 420px;
+        width: 90%;
+        margin: auto;
+    }
+    .dv10 .socials{
+        width: 40%;
+        height: 200px;
+        float: left;
+        margin-left: 7.5%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+    }
+    .dv10 .socials h4{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: rgb(0, 207, 207);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .socials img{
+        transform: scale(0.8,0.8);
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 5px rgb(173, 173, 173);
+        margin-left: 30%;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .socials img:hover{
+        opacity: 0.7;
+    }
+    .socials a{
+        margin-top: 1%;
+        display: inline-block;
+        margin-left: 31%;
+        font-size: 20px;
+        color: rgb(0, 207, 207);
+    }
+    .socials a:hover{
+        text-decoration: none;
+        color: rgb(173, 173, 173);
+    }
+    .dv9{
+        position: relative;
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        box-shadow: 1px 1px 20px 10px gray;
+        border-radius: 20px;
+        margin-top: 50px;
+        background-repeat: no-repeat;
+        background-size: 35% 100%;
+        transition: 0.5s;
+    }
+    .tail{
+        height: 450px;
+        width: 100%;
+        background-color: rgb(0, 210, 210);
+        margin-top: 130px;
+    }
+    .info{
+        height: 100%;
+        width: 30%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    .info span{
+        display: block;
+        color: aliceblue;
+        /* margin-left: 25%; */
+        text-align: center;
+        font-weight: 450;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .info img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-left: 35%;
+        display: inline;
+        box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+        transition: 1s;
+    }
+    .info img:hover{
+        opacity: 0.7;
+    }
+    .dvtail h4{
+        background: linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+}
+@media(max-width : 567px){
+    .is{
+        position: fixed;
+        margin-left: 88%;
+        margin-top: -90%;
+        z-index: 1;
+    }
+    .is a{
+        text-decoration: none;
+    }
+    .is i{
+        display: block;
+        font-size: 50px;
+        color: rgb(0, 107, 107);
+        margin-top: 20px;
+        
+    }
+    .is i:hover{
+        color: rgb(0, 225, 225);
+    }
+    .dv6{
+        height: 3500px;
+        width: 100%;
+        margin-top: -300px;
+        background-color: rgb(232, 232, 232);
+    }
+    .d6{
+        background-color: rgb(127, 194, 172);
+        width: 100%;
+        padding:  1%  10% 1% 10%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+    }
+    .d6 h1{
+        background:linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 80%, rgb(48, 207, 208) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .dv6 .card{
+        height: 350px;
+        width:70%;
+        border-radius: 10px;
+        float: left;
+        margin: 30px 15%;
+        box-shadow: 0px 0px 2px 2px gray;
+    }
+    .dv6 .card2{
+        height: 350px;
+        width: 70%;
+        border-radius: 10px;
+        float: left;
+        margin: 30px 15%;
+        box-shadow: 0px 0px 2px 2px gray;
+    }
+    .dv6 .card img{
+        height: 250px;
+        width:90%;
+        margin: auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .dv{
+        width: 100%;
+        height: 1300px;
+        margin: auto;
+        padding-top: 30px;
+
+    }
+    .dv .d1, .d2, .d3{
+        width: 70%;
+        height: 400px;
+        border-radius: 20px;
+        float: right;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        transition: 0.5s;
+        box-shadow: 1px 150px 700px rgb(81, 111, 129) inset;
+        cursor: pointer;
+    }
+    .dv .dtop{
+        width: 83%;
+        margin: auto;
+        color: white;
+        line-height: 5px;
+        padding-top: 20px;
+        box-shadow: none;
+    }
+    .dv10{
+        height: 420px;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .dv10 .socials{
+        width: 40%;
+        height: 180px;
+        float: left;
+        margin-left: 7.5%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+    }
+    .dv10 .socials h4{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        color: rgb(0, 207, 207);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .socials img{
+        transform: scale(0.8,0.8);
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 5px rgb(173, 173, 173);
+        margin-left: 23%;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .socials img:hover{
+        opacity: 0.7;
+    }
+    .socials a{
+        margin-top: 1%;
+        display: inline-block;
+        margin-left: 25%;
+        font-size: 20px;
+        color: rgb(0, 207, 207);
+    }
+    .socials a:hover{
+        text-decoration: none;
+        color: rgb(173, 173, 173);
+    }
+    .dv9{
+        position: relative;
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        box-shadow: 1px 1px 20px 10px gray;
+        border-radius: 20px;
+        margin-top: 50px;
+        
+        background-repeat: no-repeat;
+        background-size: 35% 100%;
+        transition: 0.5s;
+    }
+    .tail{
+        height: 450px;
+        width: 100%;
+        background-color: rgb(0, 210, 210);
+        margin-top: 70px;
+    }
+    .info{
+        height: 100%;
+        width: 30%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    .info span{
+        display: block;
+        color: aliceblue;
+        /* margin-left: 25%; */
+        text-align: center;
+        font-weight: 450;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .info img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-left: 25%;
+        display: inline;
+        box-shadow: 1px 1px 15px 10px rgb(173, 173, 173);
+        transition: 1s;
+    }
+    .info img:hover{
+        opacity: 0.7;
+    }
+    .dvtail h4{
+        background: linear-gradient(to bottom, rgb(251, 0, 255)  0%, rgb(48, 207, 208) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+}
